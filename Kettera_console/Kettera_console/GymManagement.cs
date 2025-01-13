@@ -635,7 +635,7 @@ namespace Kettera_console
             Console.WriteLine("Määritä valmentaja. Saatavilla olevat valmentajat:\n");
             trainer = RequestTrainer();
             int personalTrainerID = trainer.ID;
-            Console.Write("\nRyhmä ja valmentaja käynnit: ");
+            Console.Write("\nRyhmä ja valmentaja käyttökerrat: ");
             int groupVisits = Convert.ToInt16(Console.ReadLine());
 
             string[] fields = { "customer_name", "birthday", "trainer_ref", "gym_visits", "group_pt_visits", "membership_end" };
